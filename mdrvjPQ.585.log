@@ -1,0 +1,121 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+t=00008430ms: ** 4: Type perftest041@mailinator.com in Username emailbox ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00010870ms: ** 4: Type perftest041@mailinator.com in Username emailbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00011373ms: ** 5: Type ******** in Password passwordbox ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00011991ms: ** 5: Type ******** in Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+Notify: Transaction "02_Login" started.	[MsgId: MMSG-16999]
+t=00012495ms: ** 6: Click on Sign In button ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00012703ms: ** 6: Click on Sign In button ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00012706ms: ** 7: Wait for All Network Services  ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00133284ms: Error -205177: ** 7: Wait for All Network Services  ** failed - target object was not found. Identification: Automatic       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Notify: Transaction "01_Launch" started.	[MsgId: MMSG-16999]
+t=00133796ms: ** 1: Navigate to "http://www.spectrumenterprise.net/" ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00134870ms: ** 1: Navigate to http://www.spectrumenterprise.net/ ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00134873ms: ** 2: Wait for Sign In button ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00255947ms: Error -205177: ** 2: Wait for Sign In button ** failed - target object was not found. Identification: Automatic       Snapshot Info [MSH 2 1]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Notify: Transaction "01_Launch" started.	[MsgId: MMSG-16999]
+t=00256464ms: ** 1: Navigate to "http://www.spectrumenterprise.net/" ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00257791ms: ** 1: Navigate to http://www.spectrumenterprise.net/ ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00257794ms: ** 2: Wait for Sign In button ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00378855ms: Error -205177: ** 2: Wait for Sign In button ** failed - target object was not found. Identification: Automatic       Snapshot Info [MSH 3 2]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+Notify: Transaction "01_Launch" started.	[MsgId: MMSG-16999]
+t=00379373ms: ** 1: Navigate to "http://www.spectrumenterprise.net/" ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00380563ms: ** 1: Navigate to http://www.spectrumenterprise.net/ ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00380565ms: ** 2: Wait for Sign In button ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00501694ms: Error -205177: ** 2: Wait for Sign In button ** failed - target object was not found. Identification: Automatic       Snapshot Info [MSH 4 3]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+Notify: Transaction "01_Launch" started.	[MsgId: MMSG-16999]
+t=00502218ms: ** 1: Navigate to "http://www.spectrumenterprise.net/" ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00503452ms: ** 1: Navigate to http://www.spectrumenterprise.net/ ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00503454ms: ** 2: Wait for Sign In button ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00624482ms: Error -205177: ** 2: Wait for Sign In button ** failed - target object was not found. Identification: Automatic       Snapshot Info [MSH 5 4]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Notify: Transaction "01_Launch" started.	[MsgId: MMSG-16999]
+t=00625010ms: ** 1: Navigate to "http://www.spectrumenterprise.net/" ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00626526ms: ** 1: Navigate to http://www.spectrumenterprise.net/ ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00626528ms: ** 2: Wait for Sign In button ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00747528ms: Error -205177: ** 2: Wait for Sign In button ** failed - target object was not found. Identification: Automatic       Snapshot Info [MSH 6 5]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+Notify: Transaction "01_Launch" started.	[MsgId: MMSG-16999]
+t=00748043ms: ** 1: Navigate to "http://www.spectrumenterprise.net/" ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00749343ms: ** 1: Navigate to http://www.spectrumenterprise.net/ ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00749345ms: ** 2: Wait for Sign In button ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00870320ms: Error -205177: ** 2: Wait for Sign In button ** failed - target object was not found. Identification: Automatic       Snapshot Info [MSH 7 6]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+Notify: Transaction "01_Launch" started.	[MsgId: MMSG-16999]
+t=00870842ms: ** 1: Navigate to "http://www.spectrumenterprise.net/" ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00872061ms: ** 1: Navigate to http://www.spectrumenterprise.net/ ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00872064ms: ** 2: Wait for Sign In button ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00993128ms: Error -205177: ** 2: Wait for Sign In button ** failed - target object was not found. Identification: Automatic       Snapshot Info [MSH 8 7]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+Notify: Transaction "01_Launch" started.	[MsgId: MMSG-16999]
+t=00993642ms: ** 1: Navigate to "http://www.spectrumenterprise.net/" ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00994983ms: ** 1: Navigate to http://www.spectrumenterprise.net/ ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00994985ms: ** 2: Wait for Sign In button ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01116140ms: Error -205177: ** 2: Wait for Sign In button ** failed - target object was not found. Identification: Automatic       Snapshot Info [MSH 9 8]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 10.	[MsgId: MMSG-10545]
+Notify: Transaction "01_Launch" started.	[MsgId: MMSG-16999]
+t=01116657ms: ** 1: Navigate to "http://www.spectrumenterprise.net/" ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01117816ms: ** 1: Navigate to http://www.spectrumenterprise.net/ ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01117819ms: ** 2: Wait for Sign In button ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01239034ms: Error -205177: ** 2: Wait for Sign In button ** failed - target object was not found. Identification: Automatic       Snapshot Info [MSH 10 9]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 11.	[MsgId: MMSG-10545]
+Notify: Transaction "01_Launch" started.	[MsgId: MMSG-16999]
+t=01239554ms: ** 1: Navigate to "http://www.spectrumenterprise.net/" ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01240698ms: ** 1: Navigate to http://www.spectrumenterprise.net/ ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01240700ms: ** 2: Wait for Sign In button ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01361726ms: Error -205177: ** 2: Wait for Sign In button ** failed - target object was not found. Identification: Automatic       Snapshot Info [MSH 11 10]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 12.	[MsgId: MMSG-10545]
+Notify: Transaction "01_Launch" started.	[MsgId: MMSG-16999]
+t=01362243ms: ** 1: Navigate to "http://www.spectrumenterprise.net/" ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01363430ms: ** 1: Navigate to http://www.spectrumenterprise.net/ ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01363432ms: ** 2: Wait for Sign In button ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01484527ms: Error -205177: ** 2: Wait for Sign In button ** failed - target object was not found. Identification: Automatic       Snapshot Info [MSH 12 11]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 13.	[MsgId: MMSG-10545]
+Notify: Transaction "01_Launch" started.	[MsgId: MMSG-16999]
+t=01485060ms: ** 1: Navigate to "http://www.spectrumenterprise.net/" ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01486146ms: ** 1: Navigate to http://www.spectrumenterprise.net/ ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01486148ms: ** 2: Wait for Sign In button ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01607188ms: Error -205177: ** 2: Wait for Sign In button ** failed - target object was not found. Identification: Automatic       Snapshot Info [MSH 13 12]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

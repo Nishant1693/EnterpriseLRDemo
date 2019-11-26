@@ -1,0 +1,26 @@
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+t=00154509ms: ** 4: Type perftest041@mailinator.com in Username emailbox ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00157060ms: ** 4: Type perftest041@mailinator.com in Username emailbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00157562ms: ** 5: Type ******** in Password passwordbox ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00158202ms: ** 5: Type ******** in Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+Notify: Transaction "02_Login" started.	[MsgId: MMSG-16999]
+t=00158704ms: ** 6: Click on Sign In button ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00158913ms: ** 6: Click on Sign In button ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00158916ms: ** 7: Wait for All Network Services  ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00279865ms: Error -205177: ** 7: Wait for All Network Services  ** failed - target object was not found. Identification: Automatic       Snapshot Info [MSH 2 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+t=01080523ms: ** 27: Click on Create a Report button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+Notify: Transaction "09_Network Circuit Create a Report" ended with a "Pass" status (Duration: 1.1090 Wasted Time: 0.3510).	[MsgId: MMSG-16871]
+t=01081025ms: ** 28: Scroll on Fill Page ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01081231ms: ** 28: Scroll on Fill Page ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01081736ms: ** 29: Click on Last 30 days  ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01081961ms: ** 29: Click on Last 30 days  ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+Notify: Transaction "10_Network Circuit Generate Report" started.	[MsgId: MMSG-16999]
+t=01082463ms: ** 30: Click on Submit button ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=01203467ms: Error -205177: ** 30: Click on Submit button ** failed - object defined in end event was not found.       Snapshot Info [MSH 8 1]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

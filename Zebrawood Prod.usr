@@ -1,0 +1,115 @@
+[General]
+Type=TruClientWeb
+DefaultCfg=default.cfg
+MajorVersion=12
+MinorVersion=55
+ParameterFile=Zebrawood Prod.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+LastActiveAction=Action
+DevelopTool=Vugen
+LastModifyVer=12.55.0.911
+ActiveTypes=TruClientWeb
+AdditionalTypes=TruClientWeb
+GenerateTypes=TruClientWeb
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+RunType=cci
+LastCodeGenerationVer=12.55.0.911
+DisableRegenerate=0
+Encoding=
+Description=
+ScriptLocale=en-US
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+Lib-View=Lib-View.c
+vuser_end=vuser_end.c
+[VisibleActions]
+Lib-View=1
+vuser_init=1
+Action=1
+vuser_end=1
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+"Default Profile"=default.cfg
+[RunLogicFiles]
+"Default Profile"=default.usp
+[ExtraFiles]
+C-functions.c=
+globals.h=
+JS-functions.js=
+[Interpreters]
+vuser_init=no
+Action=no
+Lib-View=no
+vuser_end=no
+[Recorded Actions]
+vuser_init=0
+Action=0
+Lib-View=1
+vuser_end=0
+[Modified Actions]
+vuser_init=0
+Action=0
+Lib-View=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+Lib-View=1
+vuser_end=1
+[TransactionsOrder]
+Order="01_Launch__*delimiter*__02_Login__*delimiter*__03_EVPL Circuit Utilization__*delimiter*__04_EVPL Service Availability__*delimiter*__07_EP-LAN Circuit Utilization__*delimiter*__08_EP-LAN Service Availability__*delimiter*__09_Network Circuit Create a Report__*delimiter*__10_Network Circuit Generate Report__*delimiter*__05_SDWAN Circuit Utilization__*delimiter*__06_SDWAN Network Utilization__*delimiter*__11_Fiber Internet Tab__*delimiter*__12_FI Circuit Utilization__*delimiter*__13_FI Circuit Utilization Report__*delimiter*__29_Reports tab__*delimiter*__30_Support Overview__*delimiter*__31_Support Ticket__*delimiter*__14_Voice Trunking Tab__*delimiter*__15_Voice Trunking Tab Non HiCap__*delimiter*__16_Voice Trunking Non HiCap View Charges__*delimiter*__17_Voice Trunking Non HiCap Plan Details__*delimiter*__18_Non HiCap CDR Trunk__*delimiter*__19_Non HiCap CDR Toll Free__*delimiter*__20_Voice Trunking HiCap__*delimiter*__21_Voice Trunking HiCap View Charges__*delimiter*__22_HiCap CDR Trunk__*delimiter*__23_HiCap CDR Toll Free__*delimiter*__24_Voice CDR Create a Report__*delimiter*__25_Non HiCap CMR__*delimiter*__26_Non HiCap CDR__*delimiter*__27_Hi Cap CMR__*delimiter*__28_Hi Cap CDR__*delimiter*__32_Event Log__*delimiter*__33_View User__*delimiter*__34_View User -Users Link__*delimiter*__36_Security Tab__*delimiter*__37_Port Change__*delimiter*__38_ To Port__*delimiter*__39_From Port__*delimiter*__40_Service Link__*delimiter*__41_Web Filter__*delimiter*__42_DNS Filter__*delimiter*__Cloud Gateway Details-AWS__*delimiter*__Cloud Gateway Details-Azure__*delimiter*__35_Sign Out"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=
+[Transactions]
+01_Launch=
+02_Login=
+"03_EVPL Circuit Utilization"=
+"04_EVPL Service Availability"=
+"07_EP-LAN Circuit Utilization"=
+"08_EP-LAN Service Availability"=
+"09_Network Circuit Create a Report"=
+"10_Network Circuit Generate Report"=
+"05_SDWAN Circuit Utilization"=
+"06_SDWAN Network Utilization"=
+"11_Fiber Internet Tab"=
+"12_FI Circuit Utilization"=
+"13_FI Circuit Utilization Report"=
+"29_Reports tab"=
+"30_Support Overview"=
+"31_Support Ticket"=
+"14_Voice Trunking Tab"=
+"15_Voice Trunking Tab Non HiCap"=
+"16_Voice Trunking Non HiCap View Charges"=
+"17_Voice Trunking Non HiCap Plan Details"=
+"18_Non HiCap CDR Trunk"=
+"19_Non HiCap CDR Toll Free"=
+"20_Voice Trunking HiCap"=
+"21_Voice Trunking HiCap View Charges"=
+"22_HiCap CDR Trunk"=
+"23_HiCap CDR Toll Free"=
+"24_Voice CDR Create a Report"=
+"25_Non HiCap CMR"=
+"26_Non HiCap CDR"=
+"27_Hi Cap CMR"=
+"28_Hi Cap CDR"=
+"32_Event Log"=
+"33_View User"=
+"34_View User -Users Link"=
+"36_Security Tab"=
+"37_Port Change"=
+"38_ To Port"=
+"39_From Port"=
+"40_Service Link"=
+"41_Web Filter"=
+"42_DNS Filter"=
+"Cloud Gateway Details-AWS"=
+"Cloud Gateway Details-Azure"=
+"35_Sign Out"=

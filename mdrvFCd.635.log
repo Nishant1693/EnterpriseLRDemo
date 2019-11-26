@@ -1,0 +1,22 @@
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+t=00248440ms: ** 27: Click on Create a Report button ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+Notify: Transaction "09_Network Circuit Create a Report" ended with a "Pass" status (Duration: 1.0650 Wasted Time: 0.3530).	[MsgId: MMSG-16871]
+t=00248943ms: ** 28: Scroll on Fill Page ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00249150ms: ** 28: Scroll on Fill Page ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00249653ms: ** 29: Click on Last 30 days  ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00249876ms: ** 29: Click on Last 30 days  ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+Notify: Transaction "10_Network Circuit Generate Report" started.	[MsgId: MMSG-16999]
+t=00250378ms: ** 30: Click on Submit button ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00371388ms: Error -205177: ** 30: Click on Submit button ** failed - object defined in end event was not found.       Snapshot Info [MSH 2 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Notify: Transaction "01_Launch" started.	[MsgId: MMSG-16999]
+t=00371900ms: ** 1: Navigate to "http://www.spectrumenterprise.net/" ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00372920ms: ** 1: Navigate to http://www.spectrumenterprise.net/ ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00372922ms: ** 2: Wait for Sign In button ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00494078ms: Error -205177: ** 2: Wait for Sign In button ** failed - target object was not found. Identification: Automatic       Snapshot Info [MSH 3 1]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
